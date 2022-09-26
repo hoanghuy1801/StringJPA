@@ -32,5 +32,9 @@ public class NhanVien {
 	private String ten;
 	private int luong;
 	
+//	@OneToMany(mappedBy = "nhanvien", cascade =CascadeType.ALL)
+//	
+//	@ToString.Exclude
+//	private List<ChungNhan> chungNhans;
 	
 }

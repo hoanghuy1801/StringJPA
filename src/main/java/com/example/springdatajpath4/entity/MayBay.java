@@ -31,4 +31,7 @@ public class MayBay {
 	private String loai;
 	@Column(name = "tam_bay")
 	private int tambay;
+	
+//	@OneToMany(mappedBy = "maybay", cascade =CascadeType.ALL)
+//	private List<ChungNhan> chungNhans;
 }
